@@ -43,6 +43,11 @@ body {
     gap: 40px;
 }
 
+.game__image-heads,
+.game__image-tails {
+  cursor: pointer;
+}
+
 .game__image--is-visible {
     display: inline-block;
 }
