@@ -14,7 +14,7 @@ body {
     letter-spacing: 0.5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -22,6 +22,7 @@ body {
 
 .game_container {
     text-align: center;
+    margin-top: 50px;
 }
 
 .game_title {
