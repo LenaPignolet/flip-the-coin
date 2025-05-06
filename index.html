@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Flip the Coin is a small JavaScript game built for a coding challenge. Click a button to flip a virtual coin and see the result instantly.">
     <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96"/>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -11,13 +12,13 @@
   </head>
 
   <body>
-    <div class="game-container">
+    <main class="game-container">
         <h1 class="game__title">Flip the coin</h1>
         <p class="game__description">Press the coin or the button to flip the coin</p>
     
         <div class="game__content">
-          <img src="assets/images/heads.svg" class="game__image-heads game__image--is-visible" alt="">
-          <img src="assets/images/tails.svg" class="game__image-tails game__image--is-hidden" alt="">
+          <img src="assets/images/heads.svg" class="game__image-heads game__image--is-visible" alt="Heads side of the coin">
+          <img src="assets/images/tails.svg" class="game__image-tails game__image--is-hidden" alt="Tails side of the coin">
 
           <img src="assets/images/shadow.svg" class="game__shadow" alt="">
           <p class="game__result">Heads</p>
@@ -26,9 +27,9 @@
         <button type="button" class="game__btn">
           Random
         </button>
-    </div>
+      </main>
 
-    <footer class="author-info sr-only">
+    <footer class="author-info sr-only" aria-label="Project credits">
       Coded by <a href="https://github.com/LenaPignolet">Léna Pignolet</a> | Challenge by
       <a href="https://www.devchallenges.io?ref=challenge" target="_blank">
         devChallenges.io

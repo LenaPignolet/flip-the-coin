@@ -18,20 +18,20 @@
 
 body {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background-color: #404A65;
     color: #ECEDF0;
     font-family: Kanit;
     font-size: 1.5rem;
     font-weight: 600;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 .game-container {
-    text-align: center;
     margin-top: 50px;
+    text-align: center;
 }
 
 .game__title {
@@ -66,12 +66,12 @@ body {
 }
 
 .game__btn {
-    text-transform: uppercase;
-    background-color: #1F6FB0;
-    box-shadow: 0px 4px 0px 0px #23649b;
     padding: 8px 40px;
     border: none;
     border-radius: 8px;
+    text-transform: uppercase;
+    background-color: #1F6FB0;
+    box-shadow: 0px 4px 0px 0px #23649b;
     color: #ECEDF0;
     font-family: Kanit;
     font-size: 1.25rem;
@@ -90,10 +90,10 @@ body {
     position: fixed;
     bottom: 0;
     padding: 10px 0;
+    margin-top: 16px;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    margin-top: 16px;
     color: #cccccc;
 }
 
